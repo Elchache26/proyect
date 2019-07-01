@@ -2,7 +2,7 @@
    background-image: url("../img/landscape.jpg");
    background-position: bottom;
    background-size: cover;
-   height: 500px;
+   /* height: 500px; */
 }
 
 .jumbotron h1 {
@@ -14,7 +14,7 @@
 
 .jumbotron p {
    color: red;
-   font-size: 25px;
+   font-size: 20px;
    font-family: fantasy;
 }
 
@@ -25,10 +25,12 @@
 .jumbotron .menu a {
    color: white;
    font-size: 40px;
-   font-weight: 400px;
+   font-weight: 200px;
    display: inline-block;
-   margin: 100px 60px;
+   margin: 0px 60px;
    text-decoration:none;
+   margin-top: 80px;
+
 }
 .jumbotron .menu a:hover {
    text-decoration: underline;
