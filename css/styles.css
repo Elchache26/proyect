@@ -1,0 +1,38 @@
+.jumbotron   {
+   background-image: url("../img/landscape.jpg");
+   background-size: cover;
+   height: 600px;
+}
+
+.jumbotron h1{
+   color: white;
+}
+
+.jumbotron p {
+   color: white;
+}
+
+.jumbotron .menu {
+   text-align: center;
+}
+
+.jumbotron .menu a {
+   color: black;
+   font-size: 40px;
+   font-weight: 400px;
+   display: inline-block;
+   margin: 60px 60px;
+   text-decoration:none;
+}
+.jumbotron .menu a:hover {
+   text-decoration: underline;
+   text-decoration-color: red;
+}
+
+.jumbotron .menu a span {
+   color: white;
+}
+
+.btn {
+   background-color: black;
+}
