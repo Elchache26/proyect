@@ -1,15 +1,21 @@
 .jumbotron   {
    background-image: url("../img/landscape.jpg");
+   background-position: bottom;
    background-size: cover;
-   height: 600px;
+   height: 500px;
 }
 
-.jumbotron h1{
-   color: white;
+.jumbotron h1 {
+   color: yellow;
+   font-size: 60px;
+   margin: 40px 80px;
+   text-align: center;
 }
 
 .jumbotron p {
-   color: white;
+   color: red;
+   font-size: 25px;
+   font-family: fantasy;
 }
 
 .jumbotron .menu {
@@ -17,11 +23,11 @@
 }
 
 .jumbotron .menu a {
-   color: black;
+   color: white;
    font-size: 40px;
    font-weight: 400px;
    display: inline-block;
-   margin: 60px 60px;
+   margin: 100px 60px;
    text-decoration:none;
 }
 .jumbotron .menu a:hover {
@@ -29,9 +35,9 @@
    text-decoration-color: red;
 }
 
-.jumbotron .menu a span {
+/* .jumbotron .menu a span {
    color: white;
-}
+} */
 
 .btn {
    background-color: black;
