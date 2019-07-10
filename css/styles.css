@@ -1,46 +1,40 @@
-.jumbotron   {
-   background-image: url("../img/landscape.jpg");
-   background-position: bottom;
-   background-size: cover;
-   /* height: 500px; */
+.jumbotron {
+  background-image: url("../img/cobro-mEr7U5yfYt8-unsplash.jpg");
+  background-size: cover;
+  /* height: 500px; */
+  /* background-position: center; */
 }
 
 .jumbotron h1 {
-   color: yellow;
-   font-size: 60px;
-   margin: 40px 80px;
-   text-align: center;
+  color: white;
+  font-size: 80px;
+  margin-bottom: 40px; 
 }
 
 .jumbotron p {
-   color: red;
-   font-size: 20px;
-   font-family: fantasy;
+  color: white;
+  font-size: 30px;
+  font-family: fantasy;
 }
 
 .jumbotron .menu {
-   text-align: center;
+  text-align: center;
 }
 
-.jumbotron .menu a {
-   color: white;
-   font-size: 40px;
-   font-weight: 200px;
-   display: inline-block;
-   margin: 0px 60px;
-   text-decoration:none;
-   margin-top: 80px;
-
-}
-.jumbotron .menu a:hover {
-   text-decoration: underline;
-   text-decoration-color: red;
+.menu a {
+  color: gold;
+  font-size: 40px;
+  font-family: monospace;
+  text-decoration: none;
+  font-weight: 200px;
+  margin: 40px 40px;
 }
 
-/* .jumbotron .menu a span {
-   color: white;
-} */
+.menu a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
 
 .btn {
-   background-color: black;
+  background-color: black;
 }
