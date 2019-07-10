@@ -1,0 +1,40 @@
+.jumbotron {
+  background-image: url("../img/cobro-mEr7U5yfYt8-unsplash.jpg");
+  background-size: cover;
+  /* height: 500px; */
+  /* background-position: center; */
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: 80px;
+  margin-bottom: 40px; 
+}
+
+.jumbotron p {
+  color: white;
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+.jumbotron .menu {
+  text-align: center;
+}
+
+.menu a {
+  color: gold;
+  font-size: 40px;
+  font-family: monospace;
+  text-decoration: none;
+  font-weight: 200px;
+  margin: 40px 40px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.btn {
+  background-color: black;
+}
