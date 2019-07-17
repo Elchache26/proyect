@@ -6,15 +6,15 @@
 }
 
 .jumbotron h1 {
-  color: white;
+  margin-bottom: 40px;
   font-size: 80px;
-  margin-bottom: 40px; 
+  color: white;
 }
 
 .jumbotron p {
-  color: white;
   font-size: 30px;
   font-family: fantasy;
+  color: white;
 }
 
 .jumbotron .menu {
@@ -22,12 +22,12 @@
 }
 
 .menu a {
+  margin: 40px 40px;
   color: gold;
   font-size: 40px;
   font-family: monospace;
   text-decoration: none;
   font-weight: 200px;
-  margin: 40px 40px;
 }
 
 .menu a:hover {

@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  border: 15px solid black;
+}
+
+.menu {
+  position: fixed;
+  padding: 30px;
+  margin: -20px;
+  width: 80%;
+  display:inline-block;
+  text-align: center;
+  background-image: url("../img/james-mcdonald-GZMjMukr5zU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  /* height: 100px; */
+}
+
+.menu a {
+  margin: 50px 30px;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: red;
+}
+.header {
+  height: 200px;
+}
+
+.header h1 {
+  /* position: absolute; */
+  padding: 150px;
+  text-align: center;
+}
+
+.column {
+  padding-right: 20px;
+  width: 33.33333333333333%;
+  float: left;
+  display: inline-block;
+  /* margin-top: 10px; */
+}
+
+
+
+.main-text {
+  padding: 40px;
+  clear: both;
+}
+
+.intro  {
+  padding: 0 60px;
+}
+
+.skills {
+  padding: 0 20px;
+}
+
+.image img {
+  width: 100%;
+}
