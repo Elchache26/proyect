@@ -8,6 +8,7 @@
 .jumbotron h1 {
   margin-bottom: 40px;
   font-size: 80px;
+  text-align: center;
   color: white;
 }
 
@@ -21,20 +22,34 @@
   text-align: center;
 }
 
+.menu {
+  background-color: #333;
+  overflow: hidden;
+}
+
 .menu a {
-  margin: 40px 40px;
-  color: gold;
-  font-size: 40px;
-  font-family: monospace;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-weight: 200px;
+  font-size: 2em;
 }
 
 .menu a:hover {
-  text-decoration: underline;
-  text-decoration-color: red;
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #4caf50;
+  color: white;
 }
 
 .btn {
   background-color: black;
+}
+
+.row {
+  margin-bottom: 40px;
 }

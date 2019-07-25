@@ -9,26 +9,27 @@
 }
 
 .menu {
-  position: fixed;
-  padding: 30px;
-  margin: -20px;
-  width: 80%;
-  display:inline-block;
-  text-align: center;
-  background-image: url("../img/james-mcdonald-GZMjMukr5zU-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  /* height: 100px; */
+  background-color: #333;
+  overflow: hidden;
 }
 
 .menu a {
-  margin: 50px 30px;
-  font-size: 50px;
-  color: white;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 2em;
 }
+
 .menu a:hover {
-  color: red;
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #4caf50;
+  color: white;
 }
 .header {
   height: 200px;
@@ -38,6 +39,11 @@
   /* position: absolute; */
   padding: 150px;
   text-align: center;
+}
+
+.image {
+  /* margin: 20px; */
+  /* display: inine-block; */
 }
 
 .column {
@@ -56,13 +62,59 @@
 }
 
 .intro  {
-  padding: 0 60px;
+  padding: 0 30px;
+  margin-top: 90px;
 }
 
 .skills {
-  padding: 0 20px;
+  padding: 0 30px;
+  margin-top: 90px;
+  font-size: 2em;
+  background-color: #5ad4c2;
+  color: #fff;
 }
 
 .image img {
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 40% 30%;
   width: 100%;
+
 }
+
+#skill-list {
+  margin-left: 50px;
+}
+
+  /* typography */
+
+  h1,
+  h2,
+  h3 {
+    font-family: futura, helvetica, arial, sans-serif;
+  }
+
+  .intro {
+    font-weight: 100;
+  }
+
+  .intro h3 {
+    text-align: center;
+  }
+
+  .intro p {
+    text-align: center;
+    font-family: Futura, helvetica, arial, sans-serif;
+    font-size: 3em;
+    -webkit-margin-before: 0;
+  }
+
+  .skills h3 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  body {
+    background-color: #fffeea;
+    color: #34495e;
+  }
