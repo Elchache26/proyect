@@ -4,7 +4,6 @@
 
 body, html {
   height: 100%;
-  font-family: helvetica, futura, arial, sans-serif;
   background-color: #A9CBB7;
 }
 
@@ -20,9 +19,6 @@ body, html {
   background-size: cover;
   background-position: center;
   margin: 0 auto;
-
-
-
 }
 
 .menu {
@@ -55,24 +51,20 @@ body, html {
   color: white;
   text-align: center;
   margin: 30px auto;
-
 }
 
 .header h3 {
-  font-size: 2em;
+  font-size: 3em;
   color: white;
   text-align: center;
   margin: 10px auto;
 }
 .header p {
-  font-size: 1em;
+  font-size: 2em;
   color: white;
   text-align: center;
-  margin: 10px auto;
-}
-
-.bg-correo {
-  height: 400px;
+  margin: 10px 50px;
+  font-family: font-family: Raleway, arial, serif;
 }
 
 .correo {
@@ -80,16 +72,16 @@ body, html {
   background-color: rgba(0, 0, 0, 0.4);
   float: left;
   overflow: hidden;
-  margin: 70px 30px;
+  margin: 70px 50px;
   padding: 0 40px;
   /* position: absolute; */
   width: 40%;
   height: 200px;
   color: white;
-  font-family: futura, helvetica, arial, sans-serif;
   border: 5px solid #A9CBB7;
   font-size: 1em;
   text-align: center;
+  font-family: Raleway, arial, serif;
 }
 
 .direction {
@@ -97,22 +89,22 @@ body, html {
   background-color: rgba(0, 0, 0, 0.4);
   float: right;
   overflow: hidden;
-  margin: 70px 30px;
+  margin: 70px 50px;
   padding: 0 40px;
   /* position: absolute; */
   width: 40%;
   height: 200px;
   color: white;
-  font-family: futura, helvetica, arial, sans-serif;
   border: 5px solid #A9CBB7;
   font-size: 1em;
   text-align: center;
-
+  font-family: Raleway, arial, serif;
 }
 
 .correo h2 {
   font-size: 2em;
-  text-align: center;
+  text-align: center;;
+  margin: 30px auto;
 }
 
 .direction h2 {
@@ -168,4 +160,16 @@ body, html {
 .youtube {
   background: #bb0000;
   color: white;
+}
+
+/* tipography */
+
+h1,
+h2,
+h3 {
+  font-family: Lobster, pasifico, arial, sans-serif;
+}
+
+p {
+  font-family: Raleway, arial, serif;
 }
