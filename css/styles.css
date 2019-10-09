@@ -1,3 +1,5 @@
+/* ----Home page----- */
+
 /* .jumbotron {
   background-image: url("../img/cobro-mEr7U5yfYt8-unsplash.jpg");
   background-size: cover;
@@ -22,41 +24,59 @@
   text-align: center;
 } */
 
-/* .menu {
-  position: fixed;
-  width: 100% !important;
-  top: 0;
-  left: 0;
-  background-color: #333;
-  box-shadow: 0 6px 14px 0 rgba(0,0,0,0.34);
-  overflow: hidden;
-  padding: 20px 0px;
-} */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+-------Menu Bar-------
+nav {
+  z-index: 1
+}
 
-/* .menu a {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 20px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 2em;
-} */
+.left {
+  float: left;
+}
 
-/* .menu a:hover {
+.right {
+  float: right;
+}
+
+ .menu {
+   position: fixed;
+   width: 100% !important;
+   top: 0;
+   left: 0;
+   background-color: #333;
+   box-shadow: 0 6px 14px 0 rgba(0,0,0,0.34);
+   overflow: hidden;
+   padding: 20px 0px;
+} 
+
+ .menu a {
+   color: #f2f2f2;
+   text-align: center;
+   padding: 20px;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 2em;
+} 
+
+.menu a:hover {
   background-color: #ddd;
   color: black;
   transition: color 800ms;
   -webkit-transition: color 800ms;
-} */
+} 
 
-/* .menu a.active {
+.menu a.active {
   background-color: #4caf50;
   color: white;
-} */
+} 
 
-/* .btn {
-  background-color: black;
-} */
+ .btn {
+    background-color: black;
+} 
 
 .row {
   margin-bottom: 40px;
@@ -68,22 +88,10 @@
 
 /**** Contact page ****/
 
-
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body, html {
+/* body, html {
   /* height: 100%; */
   /* background-color: #A9CBB7; */
-}
-
-nav {
-  z-index: 1
-}
+} */
 
 .contenedor {
   width: 100% !important;
@@ -98,46 +106,6 @@ nav {
   background-size: cover;
   background-position: center;
   padding-top: 0;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.menu {
-  position: fixed;
-  width: 100% !important;
-  top: 0;
-  left: 0;
-  background-color: rgba(0,0,0,0.34);
-  box-shadow: 0 6px 14px 0 rgba(0,0,0,0.34);
-  overflow: hidden;
-  padding: 20px 0px;
-}
-
-.menu a {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 25px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 2em;
-}
-
-.menu a:hover {
-  background-color: #ddd;
-  color: black;
-  transition: color 800ms;
-  -webkit-transition: color 800ms;
-}
-
-.menu a.active {
-  background-color: #4caf50;
-  color: white;
 }
 
 .header h1 {
@@ -301,6 +269,6 @@ p {
   font-size: 18px;
 }
 
-i {
-	padding-right: 20px;
+i { 
+  padding-right: 20px;
 }
