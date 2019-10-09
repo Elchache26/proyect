@@ -4,26 +4,73 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hello World</title>
+  <title>Home</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav class="menu">
-    <a href="index.html">Home</a>
-    <!-- <a href="#">Project</a> -->
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+    <section class="left">
+      <a href="index.html">Daniel Arias</a>
+    </section>
+    <section class="right">
+      <a href="index.html">Home</a>
+      <a href="faq.html">Faq</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </section>
   </nav>
-  <div class="jumbotron jumbotron-fluid" id="jumbo">
+  <!-- <div class="jumbotron jumbotron-fluid" id="jumbo">
     <div class="container" id="container">
       <h1 class="display-4">Daniel Arias</h1>
       <p class="lead">JavaScript, JQuery, HTML, HTML5, CSS, CSS3, Web Programming Skills, E-Commerce, Teamwork, Verbal Communication, cross-browser compatibility, Web User Interface Design (UI), Security Principles, Object-Oriented Design, Web Services (REST/SOAP), Multimedia Content Development, API's</p>
     </div>
+  </div> -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <il data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></il>
+      <il data-target="#carouselExampleIndicators" data-slide-to="1"></il>
+      <il data-target="#carouselExampleIndicators" data-slide-to="2"></il>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/slide1.jpg" alt="First Slide" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Software specialist</h5>
+          <p>design, maintain and implement database management systems, computer applications and operating systems; we also analyze organizational software needs, devise solutions and maintain PC software and hardware systems.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide2.jpg" alt="Second Slide" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>Software specialist</h5>
+        <p>design, maintain and implement database management systems, computer applications and operating systems; we also analyze organizational software needs, devise solutions and maintain PC software and hardware systems.</p>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide3.jpg" alt="Third Slide" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Software specialist</h5>
+          <p>design, maintain and implement database management systems, computer applications and operating systems; we also analyze organizational software needs, devise solutions and maintain PC software and hardware systems.</p>
+        </div>
+      </div>
+    </div>
+    <a href="#carouselExampleIndicators" role="button" class="carousel-control-prev" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a href="#carouselExampleIndicators" role="button" class="carousel-control-next" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-  <div class="container">
+  <div class="contenedor">
     <div class="row">
       <div class="col-sm">
         <h2>Portfolio Concept</h2>
@@ -42,5 +89,10 @@
       </div>
     </div>
   </div>
+  <!-- Bootstrap core JS -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>

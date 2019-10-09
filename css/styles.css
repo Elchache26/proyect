@@ -1,8 +1,8 @@
-.jumbotron {
+/* .jumbotron {
   background-image: url("../img/cobro-mEr7U5yfYt8-unsplash.jpg");
   background-size: cover;
   /* height: 500px; */
-  /* background-position: center; */
+  /* background-position: center;
 }
 
 .jumbotron h1 {
@@ -20,7 +20,7 @@
 
 .jumbotron .menu {
   text-align: center;
-}
+} */
 
 /* .menu {
   position: fixed;
@@ -62,7 +62,9 @@
   margin-bottom: 40px;
 }
 
+.carousel-indicators {
 
+}
 
 /**** Contact page ****/
 
@@ -77,6 +79,10 @@
 body, html {
   /* height: 100%; */
   /* background-color: #A9CBB7; */
+}
+
+nav {
+  z-index: 1
 }
 
 .contenedor {
@@ -107,7 +113,7 @@ body, html {
   width: 100% !important;
   top: 0;
   left: 0;
-  background-color: #333;
+  background-color: rgba(0,0,0,0.34);
   box-shadow: 0 6px 14px 0 rgba(0,0,0,0.34);
   overflow: hidden;
   padding: 20px 0px;
@@ -153,7 +159,7 @@ body, html {
   color: white;
   text-align: center;
   margin: 10px 50px;
-  font-family: font-family: Raleway, arial, serif;
+  font-family: Raleway, arial, serif;
 }
 
 .correo {
