@@ -30,9 +30,6 @@
   margin: 0;
 }
 -------Menu Bar-------
-nav {
-  z-index: 1;
-}
 
 .left {
   float: left;
@@ -43,6 +40,7 @@ nav {
 }
 
  .menu {
+   z-index: 80;
    position: fixed;
    width: 100% !important;
    top: 0;
