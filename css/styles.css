@@ -1,4 +1,6 @@
-/* ----Home page----- */
+/* ----Home----- */
+
+
 
 /* .jumbotron {
   background-image: url("../img/cobro-mEr7U5yfYt8-unsplash.jpg");
@@ -24,72 +26,132 @@
   text-align: center;
 } */
 
-* {
-  box-sizing: border-box;
-  padding: 0;
+/* .menu {
+  position: fixed;
+  width: 100% !important;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  box-shadow: 0 6px 14px 0 rgba(0,0,0,0.34);
+  overflow: hidden;
+  padding: 20px 0px;
+} */
+
+/* .menu a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2em;
+} */
+
+/* .menu a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: color 800ms;
+  -webkit-transition: color 800ms;
+} */
+
+/* .menu a.active {
+  background-color: #4caf50;
+  color: white;
+} */
+
+.carousel-item {
+  height: 60%;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-item::after {
+  content: "";
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0.3;
+  top: 0;
+}
+
+.carousel-indicators {
   margin: 0;
-}
--------Menu Bar-------
-
-.left {
-  float: left;
+  padding: 0;
 }
 
-.right {
-  float: right;
+.carousel-indicators ol {
+  width: 100%;
 }
 
- .menu {
-   z-index: 80;
-   position: fixed;
-   width: 100% !important;
-   top: 0;
-   left: 0;
-   background-color: rgba(0,0,0,0.34);
-   box-shadow: 0 6px 14px 0 rgba(0,0,0,0.34);
-   overflow: hidden;
-   padding: 20px 0px;
-} 
+.carousel-indicators li {
+  height: 3px !important;
+  border-radius: 0px !important;
+  width: 25% !important;
+  background-color: red;
+}
 
- .menu a {
-   color: #f2f2f2;
-   text-align: center;
-   padding: 20px;
-   text-transform: uppercase;
-   text-decoration: none;
-   font-size: 2em;
-} 
+.menu {
+  position: fixed;
+  width: 100% !important;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.34);
+  box-shadow: 0 6px 14px 0 rgba(0,0,0,0.34);
+  overflow: hidden;
+  padding: 20px 0px;
+}
+
+.menu a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2em;
+}
 
 .menu a:hover {
   background-color: #ddd;
   color: black;
   transition: color 800ms;
   -webkit-transition: color 800ms;
-} 
+}
 
 .menu a.active {
   background-color: #4caf50;
   color: white;
-} 
+}
 
- .btn {
-    background-color: black;
-} 
+.btn {
+  background-color: black;
+}
 
 .row {
-  margin-bottom: 40px;
+  margin: 40px;
 }
 
-.carousel-indicators {
 
-}
+
+
 
 /**** Contact page ****/
 
-/* body, html {
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
   /* height: 100%; */
   /* background-color: #A9CBB7; */
-} */
+}
+
+nav {
+  z-index: 1
+}
 
 .contenedor {
   width: 100% !important;
@@ -105,6 +167,46 @@
   background-position: center;
   padding-top: 0;
 }
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* .menu {
+  position: fixed;
+  width: 100% !important;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.34);
+  box-shadow: 0 6px 14px 0 rgba(0,0,0,0.34);
+  overflow: hidden;
+  padding: 20px 0px;
+}
+
+.menu a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: color 800ms;
+  -webkit-transition: color 800ms;
+}
+
+.menu a.active {
+  background-color: #4caf50;
+  color: white;
+} */
 
 .header h1 {
   font-size: 4em;
@@ -234,6 +336,11 @@ p {
   font-family: Raleway, arial, serif;
 }
 
+
+
+
+
+
 /****** FAQs page *****/
 
 .accordion {
@@ -267,6 +374,6 @@ p {
   font-size: 18px;
 }
 
-i { 
-  padding-right: 20px;
+i {
+	padding-right: 20px;
 }
