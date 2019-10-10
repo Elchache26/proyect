@@ -49,8 +49,8 @@
 /* .menu a:hover {
   background-color: #ddd;
   color: black;
-  transition: color 800ms;
-  -webkit-transition: color 800ms;
+  transition: color 1000ms;
+  -webkit-transition: color 1000ms;
 } */
 
 /* .menu a.active {
